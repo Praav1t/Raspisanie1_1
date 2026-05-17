@@ -1,0 +1,18 @@
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Database
+schedule_cache.db
+
+# Environment
+.env
+.env.local
+*.env.*
+```

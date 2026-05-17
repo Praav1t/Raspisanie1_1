@@ -1,0 +1,59 @@
+{
+  "lessons": [
+    {
+      "date": "17.05.2024",
+      "time_start": "09:00",
+      "time_end": "10:30",
+      "discipline": "Программирование на Python",
+      "lesson_type": "Лекция",
+      "audience": "Ауд. 301",
+      "teacher": "Иванов И.И.",
+      "subgroup": "",
+      "status": "scheduled"
+    },
+    {
+      "date": "17.05.2024",
+      "time_start": "10:45",
+      "time_end": "12:15",
+      "discipline": "Базы данных",
+      "lesson_type": "Практическое занятие",
+      "audience": "Ауд. 205",
+      "teacher": "Петров П.П.",
+      "subgroup": "Б-ИСиТ-21/1",
+      "status": "scheduled"
+    },
+    {
+      "date": "17.05.2024",
+      "time_start": "10:45",
+      "time_end": "12:15",
+      "discipline": "Веб-разработка",
+      "lesson_type": "Практическое занятие",
+      "audience": "Ауд. 210",
+      "teacher": "Сидоров С.С.",
+      "subgroup": "Б-ИСиТ-21/2",
+      "status": "scheduled"
+    },
+    {
+      "date": "18.05.2024",
+      "time_start": "09:00",
+      "time_end": "10:30",
+      "discipline": "Операционные системы",
+      "lesson_type": "Лекция",
+      "audience": "Ауд. 301",
+      "teacher": "Кузнецов К.К. (уволен)",
+      "subgroup": "",
+      "status": "cancelled"
+    },
+    {
+      "date": "18.05.2024",
+      "time_start": "10:45",
+      "time_end": "12:15",
+      "discipline": "Компьютерные сети",
+      "lesson_type": "Лабораторная работа",
+      "audience": "Ауд. 105",
+      "teacher": "Смирнов А.А.",
+      "subgroup": "Б-ИСиТ-21/1",
+      "status": "completed"
+    }
+  ]
+}
