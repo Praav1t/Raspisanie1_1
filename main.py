@@ -446,15 +446,6 @@ async def main() -> None:
     # Запуск тестирования
     await self_test(bot)
 
-    # Закрытие сессии парсера при остановке
-    @dp.shutdown()
-    async def on_shutdown(event: Any) -> None:
-        global parser
-        if parser:
-            await parser.close_session()
-        await bot.session.close()
-        logger.info("Бот остановлен")
-
     logger.info("🚀 ЗАПУСК БОТА...")
     
     try:
@@ -466,7 +457,11 @@ async def main() -> None:
         logger.critical(f"Критическая ошибка: {e}")
         raise
     finally:
+        # Закрытие сессии парсера при остановке
+        if parser:
+            await parser.close_session()
         await bot.session.close()
+        logger.info("Бот остановлен")
 
 
 if __name__ == "__main__":
